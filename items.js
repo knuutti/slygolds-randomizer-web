@@ -21,10 +21,10 @@ var tasks = [
     ["I Got You Covered","Protect Murray and collect the key in The King of the Hill in World 4."],
     ["Cloudy with a Chance of Meatballs","Let the falling rocks kill you in A Hazardous Path in World 5."],
     ["Blue Screen of Death","Restart the slugs minigame, Burning Rubber in World 5, after collecting 25 or more computers, then complete the minigame."]
-    ["The Ultimate Disguise","Reach Carmelita’s prison chamber with the protection of a barrel in A Daring Rescue in World 5."],
+    ["The Ultimate Disguise","Reach Carmelita\’s prison chamber with the protection of a barrel in A Daring Rescue in World 5."],
     ["Haven't Had to Do This in a While","Complete the hacking minigame in Bentley Comes Through in World 5. This requires fully completing the level all the way through to the end, including the final monologue cutscene."],
-    ["Owl Historian","Watch the opening cutscene with Bentley’s jetpack training and Clockwerk’s dialogue at the beginning of A Strange Reunion."],
-    ["Foxy Lady","Open the vault in Paris to collect Sly’s criminal record file from Inspector Carmelita Fox. This is considered completed upon opening the vault under the same rules as in the All Vaults category."],
+    ["Owl Historian","Watch the opening cutscene with Bentley\’s jetpack training and Clockwerk\’s dialogue at the beginning of A Strange Reunion."],
+    ["Foxy Lady","Open the vault in Paris to collect Sly\’s criminal record file from Inspector Carmelita Fox. This is considered completed upon opening the vault under the same rules as in the All Vaults category."],
     ["The Water's Fine","Collect the Dive ability from a vault. The run must also end with Dive being available to the runner (no save/load-duping it away)."],
     ["Rock N' Roll","Collect the Roll ability from a vault. The run must also end with Roll being available to the runner (no save/load-duping it away)."],
     ["Bottle Hoarder","Collect all bottles in any level."],

@@ -30,15 +30,15 @@ function randomizeBoard() {
     while (!chosen) {
       let itemNum = getSeededRandomInt(1, tasks.length) - 1;
       if (itemsOnTheBoard.indexOf(itemNum) < 0) {
+        console.log(itemNum)
         chosen = true;
-        const chosenItem = tasks[itemNum][0];
         itemsOnTheBoard.push(itemNum);
         let td = document.getElementById("r" + row + "c" + col + "-td");
         let cell = document.getElementById("r" + row + "c" + col + "-div");
 
         let spanElement = document.createElement("span");
-        spanElement.innerText = tasks[itemNum][0];
-        td.title = tasks[itemNum][1]
+        spanElement.innerText = tasks?.[itemNum]?.[0];
+        td.title = tasks?.[itemNum]?.[1]
         cell.replaceChildren(spanElement);
       }
     }
@@ -50,14 +50,14 @@ function randomizeBoard() {
     let itemNum = getSeededRandomInt(1, bosses.length) - 1;
     if (itemsOnTheBoard.indexOf(itemNum) < 0) {
       chosen = true;
-      const chosenItem = bosses[itemNum][0];
+      const chosenItem = bosses?.[itemNum]?.[0];
       itemsOnTheBoard.push(itemNum);
       let td = document.getElementById("r" + row + "c" + col + "-td");
       let cell = document.getElementById("r" + row + "c" + col + "-div");
 
       let spanElement = document.createElement("span");
       spanElement.innerText = chosenItem;
-      td.title = bosses[itemNum][1]
+      td.title = bosses?.[itemNum]?.[1]
       cell.replaceChildren(spanElement);
     }
   }
@@ -94,12 +94,13 @@ function rerollBoard() {
   seed = generateSeedString();
   randomizeBoard();
   document.querySelectorAll('.marked').forEach(ele => ele.classList.remove('marked'));
+  location.reload()
 }
 
 function generateSeedString() {
   let urlParams = new URLSearchParams(window.location.search);
-  let seed = Math.round(Math.random() * new Date().getTime())
-  //urlParams.set('seed', seed);
+  let seed = Math.round(Date.now() * Math.random())
+  urlParams.set('seed', seed);
   const url = new URL(window.location.href);
   url.searchParams.set('seed', seed);
   window.history.replaceState(null, null, url);

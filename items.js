@@ -20,7 +20,7 @@ var tasks = [
     ["Like a Dragon","Collect the key in Duel by the Dragon in World 4."],
     ["I Got You Covered","Protect Murray and collect the key in The King of the Hill in World 4."],
     ["Cloudy with a Chance of Meatballs","Let the falling rocks kill you in A Hazardous Path in World 5."],
-    ["Blue Screen of Death","Restart the slugs minigame, Burning Rubber in World 5, after collecting 25 or more computers, then complete the minigame."]
+    ["Blue Screen of Death","Restart the slugs minigame, Burning Rubber in World 5, after collecting 25 or more computers, then complete the minigame."],
     ["The Ultimate Disguise","Reach Carmelita\’s prison chamber with the protection of a barrel in A Daring Rescue in World 5."],
     ["Haven't Had to Do This in a While","Complete the hacking minigame in Bentley Comes Through in World 5. This requires fully completing the level all the way through to the end, including the final monologue cutscene."],
     ["Owl Historian","Watch the opening cutscene with Bentley\’s jetpack training and Clockwerk\’s dialogue at the beginning of A Strange Reunion."],

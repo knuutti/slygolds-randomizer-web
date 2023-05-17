@@ -31,6 +31,7 @@ function randomizeBoard() {
       let itemNum = getSeededRandomInt(1, tasks.length) - 1;
       if (itemsOnTheBoard.indexOf(itemNum) < 0) {
         console.log(itemNum)
+        console.log(tasks[itemNum])
         chosen = true;
         itemsOnTheBoard.push(itemNum);
         let td = document.getElementById("r" + row + "c" + col + "-td");
@@ -94,7 +95,7 @@ function rerollBoard() {
   seed = generateSeedString();
   randomizeBoard();
   document.querySelectorAll('.marked').forEach(ele => ele.classList.remove('marked'));
-  location.reload()
+  //location.reload()
 }
 
 function generateSeedString() {

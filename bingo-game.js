@@ -31,12 +31,14 @@ function randomizeBoard() {
       let itemNum = getSeededRandomInt(1, tasks.length) - 1;
       if (itemsOnTheBoard.indexOf(itemNum) < 0) {
         chosen = true;
-        const chosenItem = tasks[itemNum];
+        const chosenItem = tasks[itemNum][0];
         itemsOnTheBoard.push(itemNum);
+        let td = document.getElementById("r" + row + "c" + col + "-td");
         let cell = document.getElementById("r" + row + "c" + col + "-div");
 
         let spanElement = document.createElement("span");
-        spanElement.innerText = chosenItem;
+        spanElement.innerText = tasks[itemNum][0];
+        td.title = tasks[itemNum][1]
         cell.replaceChildren(spanElement);
       }
     }
@@ -48,12 +50,14 @@ function randomizeBoard() {
     let itemNum = getSeededRandomInt(1, bosses.length) - 1;
     if (itemsOnTheBoard.indexOf(itemNum) < 0) {
       chosen = true;
-      const chosenItem = bosses[itemNum];
+      const chosenItem = bosses[itemNum][0];
       itemsOnTheBoard.push(itemNum);
+      let td = document.getElementById("r" + row + "c" + col + "-td");
       let cell = document.getElementById("r" + row + "c" + col + "-div");
 
       let spanElement = document.createElement("span");
       spanElement.innerText = chosenItem;
+      td.title = bosses[itemNum][1]
       cell.replaceChildren(spanElement);
     }
   }

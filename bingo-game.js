@@ -22,19 +22,16 @@ let mySeededRng = new Math.seedrandom('' + seed);
 function randomizeBoard() {
   mySeededRng = new Math.seedrandom('' + seed); // this is inconsistent if you pass a number instead of a string
 
-  
-  bingoItems = tasks;
-
   let itemsOnTheBoard = [];
 
-  for (let row = 1; row <= 10; row++) {
+  for (let row = 1; row <= 9; row++) {
     let col = 1
     let chosen = false
     while (!chosen) {
-      let itemNum = getSeededRandomInt(1, bingoItems.length) - 1;
+      let itemNum = getSeededRandomInt(1, tasks.length) - 1;
       if (itemsOnTheBoard.indexOf(itemNum) < 0) {
         chosen = true;
-        const chosenItem = bingoItems[itemNum];
+        const chosenItem = tasks[itemNum];
         itemsOnTheBoard.push(itemNum);
         let cell = document.getElementById("r" + row + "c" + col + "-div");
 
@@ -42,6 +39,22 @@ function randomizeBoard() {
         spanElement.innerText = chosenItem;
         cell.replaceChildren(spanElement);
       }
+    }
+  }
+  let chosen = false
+  while (!chosen) {
+    let row = 10
+    let col = 1
+    let itemNum = getSeededRandomInt(1, bosses.length) - 1;
+    if (itemsOnTheBoard.indexOf(itemNum) < 0) {
+      chosen = true;
+      const chosenItem = bosses[itemNum];
+      itemsOnTheBoard.push(itemNum);
+      let cell = document.getElementById("r" + row + "c" + col + "-div");
+
+      let spanElement = document.createElement("span");
+      spanElement.innerText = chosenItem;
+      cell.replaceChildren(spanElement);
     }
   }
 

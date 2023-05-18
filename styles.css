@@ -71,7 +71,7 @@ table {
 
 td {
   border: 2px solid black;
-  background-color: #084f977a;
+  background-color: #084f97;
   width: calc(665px - 2rem);
   height: 50px;
   cursor: pointer;

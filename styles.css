@@ -1,5 +1,11 @@
+@font-face {
+  font-family: 'ubuntu';
+  src:  url('fonts/Blambot\ Casual\ Regular.ttf') format('truetype');
+}
+
 body {
-  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-family: 'ubuntu';
+  src:  url('fonts/Blambot\ Casual\ Regular.ttf') format('truetype');
   background-color: #181a1b;
   color: #e8e6e3;
 }
@@ -96,6 +102,8 @@ td:hover {
 }
 
 button {
+  font-family: 'ubuntu';
+  src:  url('fonts/Blambot\ Casual\ Regular.ttf') format('truetype');
   cursor: pointer;
   font-weight: 700;
   font-size: 1.2rem;

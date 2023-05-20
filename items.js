@@ -14,7 +14,7 @@ var tasks = [
     ["Indiana Cooper","Escape the giant snake in Lair of the Beast in World 3 by following the casual route. This is considered complete at the end of the chase sequence once the cutscene for the snake leaving has finished."],
     ["Raccoon Gumbo","Allow the bomb-toting roosters to defeat you after collecting 20 or more chickens in Down Home Cooking in World 3, then collect the key. You must take a full death to the roosters, exhausting all charms and then dying properly."],
     ["Fish Fry","Restart the fish minigame, Piranha Lake in World 3, after lighting 15 or more torches, then collect the key."],
-    ["Sprinting Through the Mountains","Complete any World 5 MTS (Master Thief Sprint)."],
+    ["Sprinting Through the Mountains","Complete any World 4 MTS (Master Thief Sprint)."],
     ["You Monster","Witness the Panda King bury an entire village in snow in A Perilous Ascent in World 4. This is considered completed by watching the entire cutscene."],
     ["No More Kung-Fu!","Defeat all the monkey enemies training on balance poles in Flaming Temple of Flame in World 4."],
     ["Like a Dragon","Collect the key in Duel by the Dragon in World 4."],

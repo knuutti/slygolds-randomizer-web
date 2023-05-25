@@ -1,6 +1,6 @@
 var tasks = [
     ["Sprinting Through the Storm", "Complete any World 1 MTS (Master Thief Sprint)."],
-    ["If You Can't Take the Heat","Slam shut all the furnaces in Into the Machine or Fire Down Below at least once each. There are x in ITM and 5 in FDB."],
+    ["If You Can't Take the Heat","Slam shut all the furnaces in Into the Machine or Fire Down Below at least once each. There are 18 in ITM and 5 in FDB."],
     ["Rave Time","Collect the key in the crabs minigame, Treasure in the Depths, in World 1."],
     ["Where We Droppin'?","Hear Raleigh say “fortnite” (or other language equivalent) in The Gunboat Graveyard in World 1. Listen to the full dialogue from start to finish."],
     ["Shh, This is a Library!","Take the barrel disguise all the way to the key in A Cunning Disguise in World 1."],

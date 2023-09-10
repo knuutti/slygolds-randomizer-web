@@ -27,7 +27,7 @@ let tasks = [
     // W3
     ["Drive-By", "Collect at least 100 coins in A Ghastly Voyage in World 3, then collect the key."],
     ["Voodoo Simon Says", "Allow Mz. Ruby to explain her upcoming rhythm-based battle phases in A Deadly Dance in World 3. Listen to the full dialogue from start to finish."],
-    ["I Ain\’t Afraid of No Ghost", "Collect the key and the vault in any level in World 3 featuring ghost enemies (aka Rodentia Undeadius) without killing any ghosts, excluding A Ghastly Voyage. Killing other non-ghost guards is acceptable. (Viable levels: A Grave Undertaking, Descent Into Danger)."],
+    ["Spooky Scary Skeletons", "Defeat all skeleton type enemies (aka Pierre Flamenose) at least once each in any applicable level in World 3, then collect the key. There are 6 in A Ghastly Voyage and 2 in Descent Into Danger."],
     ["Grave Defiler", "Destroy all 9 ghost generators in A Grave Undertaking in World 3."],
     ["Zombie Servitude", "Hear Mz. Ruby call out Sly and threaten him with eternal “zombie servitude” (or other language equivalent) in Descent Into Danger in World 3. Listen to the full dialogue from start to finish."],
     ["Sprinting Through the Bayou","Complete any World 3 MTS (Master Thief Sprint)."],

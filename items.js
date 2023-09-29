@@ -37,7 +37,7 @@ let tasks = [
     ["Fish Fry","Restart the fish minigame, Piranha Lake in World 3, after lighting 15 or more torches, then collect the key."],
 
     // W4
-    ["Nobody Saw That", "Defeat all 10 guards at least once each in The Unseen Foe in World 4, then collect the key."],
+    ["Nobody Saw That", "Defeat all 11 guards at least once each in The Unseen Foe in World 4, then collect the key."],
     ["Smells Like Gunpowder", "Set off all gray and red fireworks in any applicable level in World 4 at least once each. There are 14 in A Perilous Ascent, 6 in The Unseen Foe, 16 in Duel by the Dragon, and 1 in Rapid Fire Assault (this does not include firework elevators)."],
     ["POGICETRACK", "Collect the key in A Desperate Race in World 4."],
     ["Cold Date", "Watch the cutscene with Carmelita before the chase sequence begins in Duel by the Dragon in World 4."],

@@ -10,7 +10,7 @@ let tasks = [
     ["Rave Time","Collect the key in the crabs minigame, Treasure in the Depths, in World 1."],
     ["Where We Droppin'?","Hear Raleigh say “fortnite” (or other language equivalent) in The Gunboat Graveyard in World 1. Listen to the full dialogue from start to finish."],
     ["Shh, This is a Library!","Take the barrel disguise all the way to the key in A Cunning Disguise in World 1."],
-    ["Belly Bump Jump (BBJ) in High Class Heist", ""],
+    ["Belly Bump Jump (BBJ) in High Class Heist", "Complete at least one successful “Belly Bump Jump” or BBJ in High Class Heist, then collect the key. A successful BBJ is defined as using one of the Walrus guards to proxy Sly across the water in any direction towards the key that allows the player to entirely skip the lily pad platforming"],
 
     // W2
     ["All Bark, No Bite", "Collect the key and vault in any World 2 level that features guards with guns (aka Vinnie the Pincher) without killing any guards, excluding Murray\’s Big Gamble. (Viable levels: Boneyard Casino, Back Alley Heist)"],
@@ -22,7 +22,7 @@ let tasks = [
     ["Payday!","Collect the coins from the rotating doghouse in the Boneyard Casino in World 2."],
     ["POGDOGTRACK","Collect the key in At the Dog Track in World 2."],
     ["Hot Date","Watch the “date” cutscene with Carmelita before the chase sequence begins in Two to Tango in World 2."],
-    ["Cleetus (any variation) in A Rocky Start", ""],
+    ["Cleetus (any variation) in A Rocky Start", "Complete at least one successful Cleetus launch in A Rocky Start. A successful Cleetus launch is defined as using the first dog enemy, Cleetus, to launch at least across the trash-filled pond, skipping the laser security cutscene and the trailer with the lasers inside. This is the minimum distance, and any distance past this is also allowed. Any method to achieve the proxy is allowed."],
 
     // W3
     ["Drive-By", "Collect at least 100 coins in A Ghastly Voyage in World 3, then collect the key."],
@@ -34,7 +34,7 @@ let tasks = [
     ["Indiana Cooper","Escape the giant snake in Lair of the Beast in World 3 by following the casual route. This is considered complete at the end of the chase sequence once the cutscene for the snake leaving has finished."],
     ["Raccoon Gumbo","Allow the bomb-toting roosters to defeat you after collecting 20 or more chickens in Down Home Cooking in World 3, then collect the key. You must take a full death to the roosters, exhausting all charms and then dying properly."],
     ["Fish Fry","Restart the fish minigame, Piranha Lake in World 3, after lighting 15 or more torches, then collect the key."],
-    ["DSJ in Dread Swamp Path", ""],
+    ["DSJ in Dread Swamp Path", "Complete at least one successful DSJ in Dread Swamp Path. A successful DSJ is defined as jumping from the first sliding vine onto the rock in the waterfall, then jumping and attaching to the sliding vine across the water, then landing safely on the ground below the rat guard."],
 
     // W4
     ["Smells Like Gunpowder", "Set off all gray and red fireworks in any applicable level in World 4 at least once each. There are 14 in A Perilous Ascent, 6 in The Unseen Foe, 16 in Duel by the Dragon, and 1 in Rapid Fire Assault (this does not include firework elevators)."],
@@ -46,7 +46,7 @@ let tasks = [
     ["No More Kung-Fu!","Defeat all the monkey enemies training on balance poles at least once each in Flaming Temple of Flame in World 4."],
     ["Like a Dragon","Collect the key in Duel by the Dragon in World 4."],
     ["I Got You Covered","Protect Murray and collect the key in The King of the Hill in World 4."],
-    ["Backwards Gate Jump in A Perilous Ascent", ""],
+    ["Backwards Gate Jump in A Perilous Ascent", "Go backwards from the end of the level and enter the vault room by performing a jump from the gate while it’s raised. This is considered complete once the player has jumped from the gate going backwards in the level and then lands inside the vault room within the same attempt."],
 
     // W5
     ["Smashing Through, Again", "Reach the top platform of Sinking Peril in World 5 that has the jet pack, then reload and do it again. (If you accidentally enter the final level A Strange Reunion, you may view map or reload to Sinking Peril and only do it once more as usual)."],
@@ -58,7 +58,7 @@ let tasks = [
     ["The Ultimate Disguise","Reach Carmelita\’s prison chamber with the protection of a barrel in A Daring Rescue in World 5."],
     ["Haven't Had to Do This in a While","Complete the hacking minigame in Bentley Comes Through in World 5. This requires fully completing the level all the way through to the end, including the final monologue cutscene."],
     ["Owl Historian","Watch the opening cutscene with Bentley\’s jetpack training and Clockwerk\’s dialogue at the beginning of A Strange Reunion."],
-    ["Clockwerk Jump in A Strange Reunion",""],
+    ["Clockwerk Jump in A Strange Reunion","Complete at least one Clockwerk Jump in A Strange Reunion. This is considered complete by skipping most of the platforming in the final section of the boss fight by jumping and attaching to the pipe by Clockwerk’s head early."],
 
     // General
     ["Extra, Extra!", "Watch at least one of the “newspaper” cutscenes after defeating a world boss. This is considered complete upon watching the full cutscene either after defeating the boss or in the movie menu in the hideout."],
@@ -75,7 +75,7 @@ let tasks = [
     ["The Luck of the Irish","Collect all free-standing lucky charms in any level that contains at least two, then use them all before collecting the key at the end of the level. (Viable levels: Two to Tango, Grave Undertaking)."],
     ["Shortcut!","Unlock the gate blocking the second half of any world by collecting three keys and opening the gate. (World 1: Unlock and destroy the generator. World 2: Unlock the car and destroy the boards blocking access to the casino. World 3: Unlock the bone gate with the help of a giant snake. World 4: Unlock the roof hatch with fireworks.)"],
     ["Navigate Like Drake","Enter all levels in any two Worlds (minimum) and show off the fully revealed World maps."],
-    ["All Keys in Minimum 2 Worlds", ""]
+    ["Some of the Keys", "Collect every key in a minimum of 2 Worlds."]
 ];
 
 let bosses  =  [

@@ -2,7 +2,6 @@ let tasks = [
 
     // W1
     ["Engineering Apprenticeship", "Collect both keys in Into the Machine and Fire Down Below in World 1."],
-    ["", ""],
     ["Moolah Museum", "Collect at least 100 coins in High Class Heist in World 1, then collect the key."],
     ["My Lucky Day", "Collect the charm in Prowling the Grounds that triggers Bentley’s dialogue explaining lucky charms and listen to it from start to finish."],
     ["Flat Earth Society", "Destroy all 9 dart guns at least once each disguised as globes in A Cunning Disguise in World 1."],
